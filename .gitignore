@@ -1,0 +1,9 @@
+#ignore
+
+*.swp
+*.swap
+*~
+*.exe
+*.dll
+*.obj
+*.lib
