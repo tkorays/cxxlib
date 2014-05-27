@@ -12,12 +12,7 @@
 #include <string>
 #include <vector>
 
-// ----------------------------------------
-class FrameProcessor {
-public:
-	virtual void process(cv::Mat& input, cv::Mat& output) = 0;
-};
-// ----------------------------------------
+#include "FrameProcessor.h"
 
 
 class VideoProcessor {
@@ -70,6 +65,9 @@ public:
 		fnumber = 0;
 		capture.release();
 		images = imgs;
+		return true;
+	}
+	bool setInput(const int v) {
 		return true;
 	}
 	// …Ë÷√ ‰≥ˆ ”∆µ
