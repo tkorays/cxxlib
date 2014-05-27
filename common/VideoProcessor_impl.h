@@ -2,7 +2,7 @@
 #define _TK_VIDEO_PROCESSOR_IMPL_H_
 #pragma once
 
-#include "VideoProcesor.h"
+#include "VideoProcessor.h"
 
 VideoProcessor::VideoProcessor():delay(0) {
 	videostatus = VS_STOP;
