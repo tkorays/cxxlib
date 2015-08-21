@@ -6,3 +6,9 @@
 *.exe
 *.dll
 *.obj
+
+*.sdf
+/[Bb]in
+/[Bb]uild
+
+
