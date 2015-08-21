@@ -8,7 +8,10 @@
 *.obj
 
 *.sdf
-/[Bb]in
-/[Bb]uild
+*/[Bb]in
+*/[Bb]uild
+[Dd]ebug/
+[Rr]elease/
+*.opensdf
 
 
