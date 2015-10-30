@@ -5,8 +5,7 @@
 #define MAX_CMD_NAME_LEN 19
 #define MAX_PARA_NUM 9+1
 
-extern Command g_CmdList[100];
-extern int g_CmdSize;
+
 
 
 typedef enum {
@@ -22,6 +21,16 @@ typedef struct {
 } Command;
 
 void CmdExec(const char* name,const char* para_str);
+
+extern Command g_CmdList[100];
+extern int g_CmdSize;
+
+// generate function prototype
+
+#define FUNC_PROTOTYPE(ret,name,args...) \
+  ret(*name)(args)
+
+
 
 
 #endif // __JX_PLUGIN__
