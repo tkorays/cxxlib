@@ -1,6 +1,0 @@
-cl.exe
-/Gz __stdcall
-
-link.exe
-/DLL
-/OUT:...
